@@ -4,7 +4,6 @@
  3. Remove the client.stop within "else" in connectAgain function
  2016-08-18 modified by Lane 
  1. 加一句client.print("<data>"), 并且client.println替换为client.print
- 
 */
 
 #include <SPI.h>
@@ -18,8 +17,8 @@ String incomingByte ="";
 String filename = "";
 
 //服务器的端口和IP
-int port = 4203;
-IPAddress server(23,99,101,82); 
+int port = xxxx;
+IPAddress server(xx,xx,xx,xx); 
 
 WiFiClient client;
 
